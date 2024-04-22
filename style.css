@@ -1,0 +1,81 @@
+/* PC・スマホ共通 */
+html{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+/* PC用 */
+/* 横幅設定 */
+body {
+  margin: 0;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+header a:link {
+  color: #000000;
+}
+header a:visited {
+  color: #000000;
+}
+header a:hover {
+  color: #000000;
+}
+header a:active {
+  color: #000000;
+}
+
+header a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+#logo {
+  border: 1px solid #000000;
+}
+
+#main-img {
+  width: 100% ;
+  margin: 0;
+}
+
+article > section {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+#about {
+  margin: 100px auto;
+}
+
+#about-contents {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.style-h2 {
+  font-size: 34px;
+}
+
+#works-contents {
+  display: flex;
+  justify-content: space-around;
+}
+
